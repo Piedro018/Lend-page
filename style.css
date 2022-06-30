@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&display=swap');
+
+@media (min-width: 992px) {
+    h1{
+        font-size: 4.3vw; /* viewport */
+    }
+
+    .map{
+        top: -20px;
+        right: 50px;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width:  991px) {
+    h1{
+        font-size: 5.3vh; /* viewport */
+    }
+
+    .map{
+        width: 100%; 
+        margin-top: 20px;
+        position: unset !important;
+    }
+
+    
+    
+}
+
+body {
+    background-color: #080324;
+}
+
+nav {
+    font-family: 'Bebas Neue', cursive;   
+}
+.courier-prime {
+    font-family: 'Courier Prime', monospace;
+}
+
+.bebas {
+    font-family: 'Bebas Neue', cursive;  
+}
+
+.bg-color {
+    background: #F9003D;
+}
+
+
+.espaco {
+    margin-left: auto;
+    
+}
+
+.nav-link-contact {
+    background-color: #a058ff;
+    border: 1px solid #080324;
+    min-width: 18%;
+}
+
+
+.nav-link {
+    margin-right: 55px;
+    margin-left: 55px;
+}
+
+
+.secao-home {
+    background-image: url(imagem-fundo-banner.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.secao-home .row {
+    height: 768px;
+}
+
+
+
+.secao-local {
+    
+    background-image: url(imagem-fundo-info.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 18px ;
+}
+
+
+.secao-local .row {
+    min-height: 300px;
+}
+
+.secao-endereco {
+    background-image: url(imagem-fundo-ranking.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.secao-endereco .row {
+    min-height: 500px;
+    
+}
+
+
+
+hr {
+    border-top:1px #FFAF00 solid;
+    width: 50%;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+h2 {
+    font-size: 50px;
+    color: #F9003D;
+    font-family: 'Courier Prime', monospace;
+    text-transform: uppercase;
+}
+
+.secao-projeto {
+    
+}
+
+h3 {
+    margin: 18px;
+    color: #F9003D;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+
+}
+
+h4 {
+    text-transform: uppercase;
+    color:#FFFFFF ;
+    font-family: 'Courier Prime', monospace;
+}
+
+h5 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #FFAF00;
+
+}
+
+
+.color-white {
+    color: white;
+}
+
+.box {
+    width: 250px;
+    text-transform: uppercase;
+}
+
+.box-item {
+    height: 90px;
+    border: 2px solid #A058FF ;
+    text-align: center;
+    line-height: 90px;
+    color: #A058FF;
+    text-transform: uppercase;
+}
+
+.boxs-1 {
+    text-transform: uppercase;
+    color: #FFAF00;
+    
+}
+
+.boxss-2 {
+    border: 2px solid #A058FF ;
+    background-color: #010010;
+    color: #A058FF;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Courier Prime', monospace;   
+}
+
+.font {
+    font-size: 60px;
+}
+
+.map {
+    border: 0;
+    top: -20px;
+    right: 50px;
+}
+
+footer {
+    background: #F9003D;
+}
+
+.margin {
+    margin-bottom: 100px;
+}
+
+
+.font-40 {
+    font-size: 40px;
+    margin-top: 10px;
+    
+}
+
+
+    
+
+
