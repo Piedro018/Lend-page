@@ -1,0 +1,6 @@
+git init
+git remote add origin https://github.com/matheussenai/land-page.git
+git branch -M main
+git add .
+git commit -a -m "versao inicial"
+git push -u origin main
